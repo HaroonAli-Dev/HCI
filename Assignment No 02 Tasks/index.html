@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delicious Bistro</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background-color: #111; color: #fff; }
+    header { background: #222; padding: 15px; display: flex; justify-content: space-between; align-items: center; }
+    nav a { margin: 0 10px; color: #fff; text-decoration: none; }
+    .hero { text-align: center; padding: 100px 20px; background: url('restaurant-bg.jpg') no-repeat center/cover; }
+    .hero h1 { font-size: 40px; }
+    .hero button { margin: 10px; padding: 10px 20px; border: none; cursor: pointer; }
+    .section { display: flex; justify-content: space-around; padding: 40px; }
+    .card { width: 30%; text-align: center; }
+    .card img { width: 100%; border-radius: 10px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>Delicious Bistro</h2>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Menu</a>
+      <a href="#">About</a>
+      <a href="#">Gallery</a>
+      <a href="#">Contact</a>
+      <button style="background:gold; color:#000;">Reserve a Table</button>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Welcome to Delicious Bistro</h1>
+    <p>Fine Dining Experience</p>
+    <button style="background:gold;">View Menu</button>
+    <button style="background:#fff; color:#000;">Book a Table</button>
+  </div>
+
+  <div class="section">
+    <div class="card">
+      <img src="steak.jpg" alt="Specialties">
+      <h3>Our Specialties</h3>
+      <p>Signature dishes crafted by top chefs.</p>
+    </div>
+    <div class="card">
+      <img src="ingredients.jpg" alt="Fresh Ingredients">
+      <h3>Fresh Ingredients</h3>
+      <p>Locally sourced and always fresh.</p>
+    </div>
+    <div class="card">
+      <img src="atmosphere.jpg" alt="Cozy Atmosphere">
+      <h3>Cozy Atmosphere</h3>
+      <p>A warm and inviting dining environment.</p>
+    </div>
+  </div>
+</body>
+</html>
